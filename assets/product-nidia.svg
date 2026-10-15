@@ -1,0 +1,40 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="330" height="372" viewBox="0 0 330 372" fill="none" role="img" aria-label="Nídia — App de finanças com uma IA que não chuta"><title>Nídia — App de finanças com uma IA que não chuta</title><style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+.b{font-weight:700}
+.sb{font-weight:600}
+
+@keyframes shimmer{0%{transform:translateX(-140px)}100%{transform:translateX(420px)}}
+@keyframes pop{0%{opacity:0;transform:translateY(6px)}8%,85%{opacity:1;transform:translateY(0)}95%,100%{opacity:0}}
+@keyframes draw{0%{stroke-dashoffset:400;opacity:1}45%,85%{stroke-dashoffset:0;opacity:1}95%,100%{stroke-dashoffset:0;opacity:0}}
+@keyframes area{0%,30%{opacity:0}50%,85%{opacity:1}95%,100%{opacity:0}}
+@keyframes ring{0%{stroke-dashoffset:176}50%,90%{stroke-dashoffset:40}100%{stroke-dashoffset:176}}
+@keyframes bar{0%{transform:scaleY(.15)}50%,90%{transform:scaleY(1)}100%{transform:scaleY(.15)}}
+@keyframes pulse{0%,100%{opacity:1}50%{opacity:.3}}
+.sh{animation:shimmer 3.5s linear infinite}
+.pop{opacity:0;animation:pop 6s ease-out infinite}
+.draw{stroke-dasharray:400;animation:draw 6s ease-in-out infinite}
+.area{opacity:0;animation:area 6s ease-in-out infinite}
+.ringf{stroke-dasharray:176;animation:ring 6s ease-in-out infinite}
+.bar{transform-box:fill-box;transform-origin:center bottom;animation:bar 6s ease-in-out infinite}
+.pulse{animation:pulse 1.4s ease-in-out infinite}
+</style><defs>
+<pattern id="qdots" width="22" height="22" patternUnits="userSpaceOnUse">
+  <circle cx="1.5" cy="1.5" r="1.2" fill="#1A2440"/>
+</pattern>
+<radialGradient id="qglowV" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#A78BFA" stop-opacity="0.22"/>
+  <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="qglowC" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
+  <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="qgrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#22D3EE"/>
+  <stop offset="1" stop-color="#A78BFA"/>
+</linearGradient>
+<linearGradient id="shg" x1="0" y1="0" x2="1" y2="0">
+<stop offset="0" stop-color="#A78BFA" stop-opacity="0"/><stop offset=".5" stop-color="#fff" stop-opacity=".9"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></linearGradient>
+<linearGradient id="ar" x1="0" y1="0" x2="0" y2="1"><stop offset="0" stop-color="#A78BFA" stop-opacity=".35"/><stop offset="1" stop-color="#A78BFA" stop-opacity="0"/></linearGradient>
+<clipPath id="topc"><rect x="0" y="0" width="330" height="4" rx="2"/></clipPath></defs><clipPath id="qclip"><rect width="330" height="372" rx="18"/></clipPath><g clip-path="url(#qclip)"><rect width="330" height="372" fill="#0B1020"/><rect width="330" height="372" fill="url(#qdots)"/><ellipse cx="270.59999999999997" cy="55.8" rx="105.60000000000001" ry="279.0" fill="url(#qglowV)"/><ellipse cx="39.6" cy="353.4" rx="99.0" ry="260.4" fill="url(#qglowC)"/></g><rect x="0.5" y="0.5" width="329" height="371" rx="18" stroke="#1E2A47"/><rect x="18" y="0" width="294" height="3" rx="1.5" fill="#A78BFA"/><g clip-path="url(#topc)"><rect class="sh" x="0" y="0" width="120" height="3" fill="url(#shg)"/></g><text x="24" y="40" class="mono" font-size="12" fill="#A78BFA">fintech · beta</text><text x="306" y="40" text-anchor="end" class="mono" font-size="12" fill="#8B97B0">02</text><text x="22" y="88" class="sans b" font-size="34" letter-spacing="-.8" fill="#E6EAF2">Nídia</text><text x="24" y="116" class="sans" font-size="15" fill="#8B97B0">App de finanças com uma</text><text x="24" y="136" class="sans" font-size="15" fill="#8B97B0">IA que não chuta</text><rect x="24" y="156" width="282" height="92" rx="12" fill="#080D1A" stroke="#1E2A47"/><path class="area" d="M36,224 L66,216 L96,220 L126,204 L156,208 L186,194 L216,198 L246,182 L270,178 L270,242 L36,242 Z" fill="url(#ar)"/><path class="draw" d="M36,224 L66,216 L96,220 L126,204 L156,208 L186,194 L216,198 L246,182 L270,178" stroke="#A78BFA" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/><circle class="pulse" cx="270" cy="178" r="4.5" fill="#A78BFA"/><text x="36" y="238" class="mono" font-size="10" fill="#8B97B0">diana › cada número com origem</text><text x="24" y="278" class="sans" font-size="14"><tspan fill="#A78BFA">›</tspan><tspan fill="#C3CBDB"> Assistente Diana com cálculo real</tspan></text><text x="24" y="300" class="sans" font-size="14"><tspan fill="#A78BFA">›</tspan><tspan fill="#C3CBDB"> Open Finance só leitura</tspan></text><text x="24" y="322" class="sans" font-size="14"><tspan fill="#A78BFA">›</tspan><tspan fill="#C3CBDB"> Regras de IR e IOF testadas</tspan></text><line x1="24" y1="330" x2="306" y2="330" stroke="#1E2A47"/><text x="24" y="354" class="mono" font-size="12" fill="#A78BFA">nidia.finance ↗</text></svg>

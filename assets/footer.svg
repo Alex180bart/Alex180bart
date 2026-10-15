@@ -1,0 +1,28 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="230" viewBox="0 0 1000 230" fill="none" role="img" aria-label="Regra, eu automatizo. Julgamento, eu potencializo com dados."><title>Regra, eu automatizo. Julgamento, eu potencializo com dados.</title><style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+.b{font-weight:700}
+.sb{font-weight:600}
+
+@keyframes wave{0%{transform:translateX(0)}100%{transform:translateX(-200px)}}
+@keyframes wave2{0%{transform:translateX(-200px)}100%{transform:translateX(0)}}
+.w1{animation:wave 6s linear infinite}
+.w2{animation:wave2 9s linear infinite}
+@keyframes up{0%{opacity:0;transform:translateY(8px)}12%,88%{opacity:1;transform:translateY(0)}100%{opacity:0}}
+</style><defs>
+<pattern id="fdots" width="22" height="22" patternUnits="userSpaceOnUse">
+  <circle cx="1.5" cy="1.5" r="1.2" fill="#1A2440"/>
+</pattern>
+<radialGradient id="fglowV" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#A78BFA" stop-opacity="0.22"/>
+  <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="fglowC" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
+  <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="fgrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#22D3EE"/>
+  <stop offset="1" stop-color="#A78BFA"/>
+</linearGradient>
+<linearGradient id="qg" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#22D3EE"/><stop offset="1" stop-color="#A78BFA"/></linearGradient></defs><clipPath id="fclip"><rect width="1000" height="230" rx="18"/></clipPath><g clip-path="url(#fclip)"><rect width="1000" height="230" fill="#0B1020"/><rect width="1000" height="230" fill="url(#fdots)"/><ellipse cx="820.0" cy="34.5" rx="320.0" ry="172.5" fill="url(#fglowV)"/><ellipse cx="120.0" cy="218.5" rx="300.0" ry="161.0" fill="url(#fglowC)"/></g><rect x="0.5" y="0.5" width="999" height="229" rx="18" stroke="#1E2A47"/><text x="48" y="52" class="mono" font-size="13" fill="#8B97B0">// princípio de trabalho</text><text x="44" y="104" class="sans b" font-size="34" letter-spacing="-.6" fill="#E6EAF2">“Regra, eu automatizo.</text><text x="44" y="146" class="sans b" font-size="34" letter-spacing="-.6" fill="url(#qg)">Julgamento, eu potencializo com dados.”</text><g opacity=".55"><path class="w1" d="M0,196 Q50.0,186 100.0,196 T200,196 Q250.0,186 300.0,196 T400,196 Q450.0,186 500.0,196 T600,196 Q650.0,186 700.0,196 T800,196 Q850.0,186 900.0,196 T1000,196 Q1050.0,186 1100.0,196 T1200,196 Q1250.0,186 1300.0,196 T1400,196" stroke="#22D3EE" stroke-width="1.6"/></g><g opacity=".35"><path class="w2" d="M0,204 Q40.0,197 80.0,204 T160,204 Q200.0,197 240.0,204 T320,204 Q360.0,197 400.0,204 T480,204 Q520.0,197 560.0,204 T640,204 Q680.0,197 720.0,204 T800,204 Q840.0,197 880.0,204 T960,204 Q1000.0,197 1040.0,204 T1120,204 Q1160.0,197 1200.0,204 T1280,204 Q1320.0,197 1360.0,204 T1440,204" stroke="#A78BFA" stroke-width="1.4"/></g><text x="960" y="52" text-anchor="end" class="mono" font-size="12" fill="#8B97B0">caieiras, sp · brasil</text></svg>

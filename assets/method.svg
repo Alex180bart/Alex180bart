@@ -1,0 +1,31 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1000" height="300" viewBox="0 0 1000 300" fill="none" role="img" aria-label="Método: para cada processo, regra é automatizada de ponta a ponta; julgamento é potencializado com dados, agentes de IA e painéis"><title>Método: para cada processo, regra é automatizada de ponta a ponta; julgamento é potencializado com dados, agentes de IA e painéis</title><style>
+.sans{font-family:'Segoe UI', -apple-system, BlinkMacSystemFont, 'Helvetica Neue', Arial, sans-serif}
+.mono{font-family:ui-monospace, SFMono-Regular, 'JetBrains Mono', Menlo, Consolas, 'Liberation Mono', monospace}
+.b{font-weight:700}
+.sb{font-weight:600}
+
+@keyframes gA{0%,22%{opacity:0}28%,45%{opacity:1}52%,100%{opacity:0}}
+@keyframes gB{0%,72%{opacity:0}78%,95%{opacity:1}100%{opacity:0}}
+@keyframes dash{to{stroke-dashoffset:-40}}
+@keyframes rot{0%,100%{transform:rotate(45deg)}50%{transform:rotate(225deg)}}
+.gA{opacity:0;animation:gA 6s ease-in-out infinite}
+.gB{opacity:0;animation:gB 6s ease-in-out infinite}
+.flow{stroke-dasharray:5 7;animation:dash 1.4s linear infinite}
+.dia{transform-box:fill-box;transform-origin:center;animation:rot 6s ease-in-out infinite}
+</style><defs>
+<pattern id="tdots" width="22" height="22" patternUnits="userSpaceOnUse">
+  <circle cx="1.5" cy="1.5" r="1.2" fill="#1A2440"/>
+</pattern>
+<radialGradient id="tglowV" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#A78BFA" stop-opacity="0.22"/>
+  <stop offset="1" stop-color="#A78BFA" stop-opacity="0"/>
+</radialGradient>
+<radialGradient id="tglowC" cx="0.5" cy="0.5" r="0.5">
+  <stop offset="0" stop-color="#22D3EE" stop-opacity="0.16"/>
+  <stop offset="1" stop-color="#22D3EE" stop-opacity="0"/>
+</radialGradient>
+<linearGradient id="tgrad" x1="0" y1="0" x2="1" y2="0">
+  <stop offset="0" stop-color="#22D3EE"/>
+  <stop offset="1" stop-color="#A78BFA"/>
+</linearGradient>
+<filter id="tb" x="-20%" y="-50%" width="140%" height="200%"><feGaussianBlur stdDeviation="10"/></filter><path id="pA" d="M462,158 C492,158 482,88 520,88"/><path id="pB" d="M462,158 C492,158 482,228 520,228"/></defs><clipPath id="tclip"><rect width="1000" height="300" rx="18"/></clipPath><g clip-path="url(#tclip)"><rect width="1000" height="300" fill="#0B1020"/><rect width="1000" height="300" fill="url(#tdots)"/><ellipse cx="820.0" cy="45.0" rx="320.0" ry="225.0" fill="url(#tglowV)"/><ellipse cx="120.0" cy="285.0" rx="300.0" ry="210.0" fill="url(#tglowC)"/></g><rect x="0.5" y="0.5" width="999" height="299" rx="18" stroke="#1E2A47"/><text x="36" y="46" class="mono" font-size="13" fill="#8B97B0">// IF / ELSE · método de trabalho</text><rect x="36" y="74" width="330" height="168" rx="16" fill="#121B33" stroke="#A78BFA" stroke-opacity=".55"/><text x="60" y="108" class="mono" font-size="12" fill="#A78BFA">para cada processo:</text><text x="60" y="146" class="sans b" font-size="23" fill="#E6EAF2">Isto precisa de um</text><text x="60" y="176" class="sans b" font-size="23" fill="#E6EAF2">humano ou de uma</text><text x="60" y="206" class="sans b" font-size="23" fill="#E6EAF2">regra bem definida?</text><path d="M366,158 L404,158" stroke="#3A4766" stroke-width="2"/><rect class="dia" x="410" y="136" width="44" height="44" rx="6" fill="#080D1A" stroke="#FBBF24" stroke-width="2"/><text x="432" y="163" text-anchor="middle" class="mono b" font-size="14" fill="#FBBF24">IF</text><path d="M462,158 C492,158 482,88 520,88" stroke="#3A4766" stroke-width="2"/><path d="M462,158 C492,158 482,88 520,88" stroke="#34D399" stroke-width="2" class="flow" stroke-opacity=".8"/><path d="M462,158 C492,158 482,228 520,228" stroke="#3A4766" stroke-width="2"/><path d="M462,158 C492,158 482,228 520,228" stroke="#22D3EE" stroke-width="2" class="flow" stroke-opacity=".8"/><circle r="5" fill="#34D399"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;1;1" keyTimes="0;0.25;1" calcMode="linear"><mpath href="#pA"/></animateMotion><animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="1;1;0;0" keyTimes="0;0.25;0.26;1"/></circle><circle r="5" fill="#22D3EE"><animateMotion dur="6s" repeatCount="indefinite" keyPoints="0;0;1;1" keyTimes="0;0.5;0.75;1" calcMode="linear"><mpath href="#pB"/></animateMotion><animate attributeName="opacity" dur="6s" repeatCount="indefinite" values="0;0;1;1;0;0" keyTimes="0;0.49;0.5;0.75;0.76;1"/></circle><rect class="gA" x="520" y="30" width="444" height="116" rx="14" fill="#34D399" fill-opacity=".35" filter="url(#tb)"/><rect x="520" y="30" width="444" height="116" rx="14" fill="#121B33" stroke="#34D399" stroke-opacity=".6"/><circle cx="520" cy="88" r="4.5" fill="#080D1A" stroke="#34D399" stroke-width="2"/><text x="546" y="64" class="mono" font-size="12" fill="#34D399">→ caminho A · regra</text><text x="546" y="96" class="sans b" font-size="21" fill="#E6EAF2">Automatiza de ponta a ponta</text><text x="546" y="122" class="sans" font-size="14.5" fill="#8B97B0">com custo baixo de infraestrutura e retorno rápido.</text><rect class="gB" x="520" y="170" width="444" height="116" rx="14" fill="#22D3EE" fill-opacity=".35" filter="url(#tb)"/><rect x="520" y="170" width="444" height="116" rx="14" fill="#121B33" stroke="#22D3EE" stroke-opacity=".6"/><circle cx="520" cy="228" r="4.5" fill="#080D1A" stroke="#22D3EE" stroke-width="2"/><text x="546" y="204" class="mono" font-size="12" fill="#22D3EE">→ caminho B · julgamento</text><text x="546" y="236" class="sans b" font-size="21" fill="#E6EAF2">Potencializa a decisão</text><text x="546" y="262" class="sans" font-size="14.5" fill="#8B97B0">com dados, agentes de IA e painéis.</text></svg>
